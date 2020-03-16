@@ -21,7 +21,7 @@ var media = (np + nt) / 2;
 var finalG = calculateFinalGrade(np, nt);
 console.log(finalG); */
 
-// Exercicio 6
+// Exercicio 6 ///
 
 console.log("TESTE");
 
