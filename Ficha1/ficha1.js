@@ -36,19 +36,19 @@ function monthByName(monthNumber){
             console.log("February");
             break;
         case 3:
-            console.log("February");
-            break;
-        case 4:
-            console.log("February");
-            break;
-        case 5:
             console.log("March");
             break;
-        case 6:
+        case 4:
             console.log("April");
             break;
-        case 7:
+        case 5:
             console.log("May");
+            break;
+        case 6:
+            console.log("June");
+            break;
+        case 7:
+            console.log("July");
             break;
         case 8:
             console.log("August");
@@ -78,7 +78,7 @@ monthByName(0);
 monthByName(0);
 
 
-function calculator(operand1, operand2, operador){
+function calculator(operand1, operand2, operator){
     if(operator == '+'){
         console.log(operand1 + operand2);
     }else if(operator == '-'){
@@ -106,7 +106,7 @@ function sumOf(value){
     for(let i = 1; i <= value; i++){
         soma = soma + i;
     }        
-    console.log(soma);
+    console.log("Soma:" + soma);
 }
 
 sumOf(3);
@@ -124,7 +124,7 @@ function calculateFact(value){
 }
 
 var f = calculateFact(3);
-console.log("f:" + f)
+console.log("Fatorial:" + f)
 
 // variavel 10
 
